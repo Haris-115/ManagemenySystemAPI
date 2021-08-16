@@ -16,6 +16,7 @@ namespace ManagementSystemAPI.DataAccess
         public DbSet<Orders> orders { get; set; }
         public DbSet<Orderitems> orderitems { get; set; }
         public DbSet<Stocks> stocks { get; set; }
+        public DbSet<Users> users { get; set; }
 
 
         //protected override void OnModelCreating(ModelBuilder builder)
@@ -24,15 +25,15 @@ namespace ManagementSystemAPI.DataAccess
         //    builder.Entity<Manufactures>()
         //     .HasOne(p => p.distributors_id);
         //}
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Distributors>()
-                .Property(p => p.distributors_id)
-                .ValueGeneratedOnAdd();
-            modelBuilder.Entity<Manufactures>()
-                .Property(p => p.manufactures_id)
-                .ValueGeneratedOnAdd();
-        }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Distributors>()
+        //        .Property(p => p.distributors_id)
+        //        .ValueGeneratedOnAdd();
+        //    modelBuilder.Entity<Manufactures>()
+        //        .Property(p => p.manufactures_id)
+        //        .ValueGeneratedOnAdd();
+        //}
         public override int SaveChanges()
         {
             ChangeTracker.DetectChanges();

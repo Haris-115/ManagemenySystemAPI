@@ -15,8 +15,10 @@ namespace ManagementSystemAPI.Models
         public string lisence { get; set; }
         public string address { get; set; }
         
-
         [ForeignKey("distributors_id")]
         public int distributors_id { get; set; }
+
+        [ForeignKey("users_id")]
+        public int users_id { get; set; }
     }
 }

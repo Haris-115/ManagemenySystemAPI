@@ -8,6 +8,7 @@ C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netco
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\ManagementSystemAPI.pdb
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\ManagementSystemAPI.Views.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\ManagementSystemAPI.Views.pdb
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
@@ -20,6 +21,9 @@ C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netco
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\NetTopologySuite.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\NetTopologySuite.IO.PostGis.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Npgsql.dll
@@ -29,6 +33,7 @@ C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netco
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.AssemblyInfoInputs.cache
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.AssemblyInfo.cs
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.csproj.CoreCompileInputs.cache
@@ -56,3 +61,9 @@ C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netco
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.dll
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.pdb
 C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.genruntimeconfig.cache
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\obj\Debug\netcoreapp3.1\ManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hp\source\repos\ManagementSystemAPI\ManagementSystemAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
