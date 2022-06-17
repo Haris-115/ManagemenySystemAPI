@@ -41,6 +41,74 @@ namespace ManagementSystemAPI
                     },
                 });
             });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Login",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyOrigin()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("MedstoreDetails", 
+                   builder =>
+                   {
+                       builder.WithOrigins("*")
+                                           .AllowAnyHeader()
+                                           .AllowAnyOrigin()
+                                           .AllowAnyMethod();
+                   });
+                options.AddPolicy("GetDistributors",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("Signup",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("OrderCount",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("DistributorDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("OrderItemsDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    }); 
+                options.AddPolicy("OrderDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("OrderItemsDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+            });
             var sqlConnectionString = Configuration["PostgreSqlConnectionString"];
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
@@ -86,6 +154,8 @@ namespace ManagementSystemAPI
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 

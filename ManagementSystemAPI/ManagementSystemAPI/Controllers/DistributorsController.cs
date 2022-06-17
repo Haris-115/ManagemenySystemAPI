@@ -3,6 +3,7 @@ using ManagementSystemAPI.DataAccess;
 using System;
 using System.Collections.Generic;
 using ManagementSystemAPI.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace ManagementSystemAPI.Controllers
 {
@@ -17,6 +18,7 @@ namespace ManagementSystemAPI.Controllers
             _dataAccessProvider = dataAccessProvider;
         }
 
+        [EnableCors("GetDistributors")]
         [HttpGet]
         public IEnumerable<Distributors> Get()
         {
@@ -40,6 +42,13 @@ namespace ManagementSystemAPI.Controllers
         public Distributors Details(int id)
         {
             return _dataAccessProvider.GetDistributorsSingleRecord(id);
+        }
+
+        [EnableCors("DistributorDetails")]
+        [HttpGet("DistributorDetail/{users_id}")]
+        public Distributors DetailsByUserId(int users_id)
+        {
+            return _dataAccessProvider.GetDistributorByUserId(users_id);
         }
 
         [HttpPut]

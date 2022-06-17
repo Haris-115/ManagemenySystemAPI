@@ -1331,21 +1331,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\ManagementSystemAPI.csproj",
+      "projectUniqueName": "E:\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\ManagementSystemAPI.csproj",
       "projectName": "ManagementSystemAPI",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\ManagementSystemAPI.csproj",
+      "projectPath": "E:\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\ManagementSystemAPI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\obj\\",
+      "outputPath": "E:\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1400,12 +1396,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.17, 3.1.17]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1414,7 +1404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

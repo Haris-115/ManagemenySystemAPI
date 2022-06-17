@@ -43,5 +43,23 @@ namespace ManagementSystemAPI.DataAccess.Implementation
         {
             return _context.stocks.ToList();
         }
+        public List<StockDetails> GetStocksWholeDetails(int id)
+        {
+            var stockList = new List<StockDetails>();
+            var test = (from meds in _context.medicines
+                        join oi in _context.stocks on meds.medicines_id equals oi.medicines_id
+                        where oi.medicines_id == id
+                        select new StockDetails
+                        {
+                            medicines_id = meds.medicines_id,
+                            medicines_name = meds.medicines_name,
+                            price = meds.price,
+                            molecule = meds.molecule
+                        }).Take(10);
+            stockList.AddRange(test.ToList());
+
+            return stockList;
+
+        }
     }
 }

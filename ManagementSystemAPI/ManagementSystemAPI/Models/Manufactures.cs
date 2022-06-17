@@ -12,8 +12,8 @@ namespace ManagementSystemAPI.Models
         [Key]
         public int manufactures_id { get; set; }
         public string manufactures_name { get; set; }
-        public string lisence { get; set; }
-        public string address { get; set; }
+        public string manufactures_lisence { get; set; }
+        public string manufactures_address { get; set; }
         
         [ForeignKey("distributors_id")]
         public int distributors_id { get; set; }

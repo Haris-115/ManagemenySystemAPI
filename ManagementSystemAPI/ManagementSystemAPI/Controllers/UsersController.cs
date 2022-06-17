@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using ManagementSystemAPI.Models;
 using static ManagementSystemAPI.Common.Constant;
 using ManagementSystemAPI.Helpers;
+using Microsoft.AspNetCore.Cors;
 
 namespace ManagementSystemAPI.Controllers
 {
@@ -32,6 +33,7 @@ namespace ManagementSystemAPI.Controllers
             return _userAccessProvider.GetUsersRecords();
         }
 
+        [EnableCors("Signup")]
         [HttpPost]
         public IActionResult Create([FromBody] UserDetails userDetails)
         {
@@ -61,9 +63,9 @@ namespace ManagementSystemAPI.Controllers
 
                     _manufacturesAccessProvider.AddManufacturesRecord(new Manufactures
                     {
-                        lisence = userDetails.lisence,
+                        manufactures_lisence = userDetails.lisence,
                         manufactures_name = userDetails.name,
-                        address = userDetails.address,
+                        manufactures_address = userDetails.address,
                         distributors_id = 1,
                         users_id = userID
                     });
@@ -85,9 +87,10 @@ namespace ManagementSystemAPI.Controllers
             return BadRequest();
         }
 
+        [EnableCors("Login")]
         [HttpPost("authenticate")]
         public IActionResult Authenticate([FromBody] Users users)
-        {
+            {
             if (ModelState.IsValid)
             {
                 var response = _userAccessProvider.Authenticate(users);

@@ -36,6 +36,10 @@ namespace ManagementSystemAPI.DataAccess.Implementation
         {
             return _context.distributors.FirstOrDefault(t => t.distributors_id == id);
         }
+        public Distributors GetDistributorByUserId(int id)
+        {
+            return _context.distributors.FirstOrDefault(t => t.users_id == id);
+        }
 
         public List<Distributors> GetDistributorsRecords()
         {

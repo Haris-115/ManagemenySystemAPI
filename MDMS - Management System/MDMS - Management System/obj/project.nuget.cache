@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x+us80oTcV4MwhTt9S8b+/wNjoZoPRb0focuRe7lnUpYxEvLQ4/sz1EiBJIf5ziejpGNnuZz3TnnT0JNVqeQNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\MDMS - Management System\\MDMS - Management System\\MDMS - Management System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+  ],
+  "logs": []
+}

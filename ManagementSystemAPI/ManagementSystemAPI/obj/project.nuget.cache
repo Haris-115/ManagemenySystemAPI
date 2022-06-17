@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T6hWUn8Gsaq68gCEWIDXvgw3uXovktAJNhybOiDIGiQUMjJRkJ2I0MT6WPL42I3bpYzBRhGeM/dAEDcjdVUPmw==",
+  "dgSpecHash": "IOVczeNI5yDKcWLySCrZ5IHylF4Sx3VXKNYOUpgG1op05Ma1B2Bu4ejVHHaIf95d6o5pI2SvDSYKFCA26hCxNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\ManagementSystemAPI.csproj",
+  "projectFilePath": "E:\\source\\repos\\ManagementSystemAPI\\ManagementSystemAPI\\ManagementSystemAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -40,8 +40,7 @@
     "C:\\Users\\hp\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.0\\system.identitymodel.tokens.jwt.6.12.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512"
+    "C:\\Users\\hp\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

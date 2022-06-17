@@ -12,8 +12,8 @@ namespace ManagementSystemAPI.Models
         public string molecule { get; set; }
         public int price { get; set; }
         public string batch_no { get; set; }
-        public DateTime manufacture_date { get; set; }
-        public DateTime expiry_date { get; set; }
+        //public DateTime manufacture_date { get; set; }
+        //public DateTime expiry_date { get; set; }
 
         [ForeignKey("manufactures_id")]
         public int manufactures_id { get; set; }

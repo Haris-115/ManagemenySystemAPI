@@ -9,6 +9,9 @@ namespace ManagementSystemAPI.DataAccess
         void UpdateOrdersRecord(Orders orders);
         void DeleteOrdersRecord(int id);
         Orders GetOrdersSingleRecord(int id);
+        int GetDistributorOrdersCount(int id);
+        List<Orders> GetDistributorOrderDetails(int id);
+        List<OrderDetails> GetOrderDetails(int id);
         List<Orders> GetOrdersRecords();
     }
 }
