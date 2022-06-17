@@ -9,6 +9,7 @@ namespace ManagementSystemAPI.DataAccess
         void UpdateOrderitemsRecord(Orderitems orderitems);
         void DeleteOrderitemsRecord(int id);
         Orderitems GetOrderitemsSingleRecord(int id);
+        List<Orderitems> GetOrderItemsByOrderId(int id);
         List<Orderitems> GetOrderitemsRecords();
     }
 }

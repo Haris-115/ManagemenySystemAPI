@@ -3,6 +3,7 @@ using ManagementSystemAPI.DataAccess;
 using System;
 using System.Collections.Generic;
 using ManagementSystemAPI.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace ManagementSystemAPI.Controllers
 {
@@ -40,6 +41,13 @@ namespace ManagementSystemAPI.Controllers
         public Orderitems Details(int id)
         {
             return _dataAccessProvider.GetOrderitemsSingleRecord(id);
+        }
+
+        [EnableCors("OrderItemsDetails")]
+        [HttpGet("OrderItemsDetail/{orders_id}")]
+        public List<Orderitems> DetailsByOrderId(int orders_id)
+        {
+            return _dataAccessProvider.GetOrderItemsByOrderId(orders_id);
         }
 
         [HttpPut]

@@ -9,6 +9,7 @@ namespace ManagementSystemAPI.DataAccess
         void UpdateStocksRecord(Stocks stocks);
         void DeleteStocksRecord(int id);
         Stocks GetStocksSingleRecord(int id);
+        List<StockDetails> GetStocksWholeDetails(int id);
         List<Stocks> GetStocksRecords();
     }
 }

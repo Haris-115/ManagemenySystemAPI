@@ -29,7 +29,6 @@ namespace ManagementSystemAPI.Controllers
             if (ModelState.IsValid)
             {
                 Guid obj = Guid.NewGuid();
-                //manufactures.manufactures_id = obj.ToString();
                 _dataAccessProvider.AddManufacturesRecord(manufactures);
                 return Ok();
             }

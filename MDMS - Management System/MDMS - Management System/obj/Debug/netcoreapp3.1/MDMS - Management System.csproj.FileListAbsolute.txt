@@ -1,0 +1,37 @@
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.exe
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.deps.json
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.runtimeconfig.json
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.runtimeconfig.dev.json
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.dll
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.pdb
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.Views.dll
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\bin\Debug\netcoreapp3.1\MDMS - Management System.Views.pdb
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.AssemblyInfo.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.RazorAssemblyInfo.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.RazorAssemblyInfo.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\staticwebassets\MDMS - Management System.StaticWebAssets.Manifest.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\staticwebassets\MDMS - Management System.StaticWebAssets.xml
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\scopedcss\bundle\MDMS - Management System.styles.css
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.TagHelpers.input.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.TagHelpers.output.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.RazorCoreGenerate.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.RazorTargetAssemblyInfo.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.RazorTargetAssemblyInfo.cs
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.Views.pdb
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.dll
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.pdb
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.genruntimeconfig.cache
+C:\Users\hp\source\repos\MDMS - Management System\MDMS - Management System\obj\Debug\netcoreapp3.1\MDMS - Management System.csproj.CopyComplete

@@ -36,6 +36,12 @@ namespace ManagementSystemAPI.Controllers
             return BadRequest();
         }
 
+        [HttpGet("StockDetails/{medicines_id}")]
+        public List<StockDetails> GetStocksWholeDetails(int medicines_id)
+        {
+            return _dataAccessProvider.GetStocksWholeDetails(medicines_id);
+        }
+
         [HttpGet("{id}")]
         public Stocks Details(int id)
         {

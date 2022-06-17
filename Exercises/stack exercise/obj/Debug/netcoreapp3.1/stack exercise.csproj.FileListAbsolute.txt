@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\Exercises\stack exercise\obj\Debug\netcoreapp3.1\stack exercise.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Exercises\stack exercise\obj\Debug\netcoreapp3.1\stack exercise.AssemblyInfo.cs
+C:\Users\hp\source\repos\Exercises\stack exercise\obj\Debug\netcoreapp3.1\stack exercise.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Exercises\stack exercise\bin\Debug\netcoreapp3.1\stack exercise.exe
+C:\Users\hp\source\repos\Exercises\stack exercise\bin\Debug\netcoreapp3.1\stack exercise.deps.json
+C:\Users\hp\source\repos\Exercises\stack exercise\bin\Debug\netcoreapp3.1\stack exercise.runtimeconfig.json
+C:\Users\hp\source\repos\Exercises\stack exercise\bin\Debug\netcoreapp3.1\stack exercise.runtimeconfig.dev.json
+C:\Users\hp\source\repos\Exercises\stack exercise\bin\Debug\netcoreapp3.1\stack exercise.dll
+C:\Users\hp\source\repos\Exercises\stack exercise\bin\Debug\netcoreapp3.1\stack exercise.pdb
+C:\Users\hp\source\repos\Exercises\stack exercise\obj\Debug\netcoreapp3.1\stack exercise.dll
+C:\Users\hp\source\repos\Exercises\stack exercise\obj\Debug\netcoreapp3.1\stack exercise.pdb
+C:\Users\hp\source\repos\Exercises\stack exercise\obj\Debug\netcoreapp3.1\stack exercise.genruntimeconfig.cache

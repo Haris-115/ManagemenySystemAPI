@@ -37,6 +37,11 @@ namespace ManagementSystemAPI.DataAccess.Implementation
             return _context.orderitems.FirstOrDefault(t => t.orderitems_id == id);
         }
 
+        public List<Orderitems> GetOrderItemsByOrderId(int id)
+        {
+            return _context.orderitems.Where(t => t.orders_id == id).ToList();
+        }
+
         public List<Orderitems> GetOrderitemsRecords()
         {
             return _context.orderitems.ToList();

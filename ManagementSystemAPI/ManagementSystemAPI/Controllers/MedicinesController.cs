@@ -3,6 +3,7 @@ using ManagementSystemAPI.DataAccess;
 using System;
 using System.Collections.Generic;
 using ManagementSystemAPI.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace ManagementSystemAPI.Controllers
 {

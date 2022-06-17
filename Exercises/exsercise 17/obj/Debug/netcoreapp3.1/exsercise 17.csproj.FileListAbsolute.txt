@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\Exercises\exsercise 17\bin\Debug\netcoreapp3.1\exsercise 17.exe
+C:\Users\hp\source\repos\Exercises\exsercise 17\bin\Debug\netcoreapp3.1\exsercise 17.deps.json
+C:\Users\hp\source\repos\Exercises\exsercise 17\bin\Debug\netcoreapp3.1\exsercise 17.runtimeconfig.json
+C:\Users\hp\source\repos\Exercises\exsercise 17\bin\Debug\netcoreapp3.1\exsercise 17.runtimeconfig.dev.json
+C:\Users\hp\source\repos\Exercises\exsercise 17\bin\Debug\netcoreapp3.1\exsercise 17.dll
+C:\Users\hp\source\repos\Exercises\exsercise 17\bin\Debug\netcoreapp3.1\exsercise 17.pdb
+C:\Users\hp\source\repos\Exercises\exsercise 17\obj\Debug\netcoreapp3.1\exsercise 17.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Exercises\exsercise 17\obj\Debug\netcoreapp3.1\exsercise 17.AssemblyInfo.cs
+C:\Users\hp\source\repos\Exercises\exsercise 17\obj\Debug\netcoreapp3.1\exsercise 17.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Exercises\exsercise 17\obj\Debug\netcoreapp3.1\exsercise 17.dll
+C:\Users\hp\source\repos\Exercises\exsercise 17\obj\Debug\netcoreapp3.1\exsercise 17.pdb
+C:\Users\hp\source\repos\Exercises\exsercise 17\obj\Debug\netcoreapp3.1\exsercise 17.genruntimeconfig.cache

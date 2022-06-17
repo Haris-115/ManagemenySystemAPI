@@ -6,6 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ManagementSystemAPI.DataAccess;
 using ManagementSystemAPI.DataAccess.Implementation;
+using ManagementSystemAPI.Helpers;
+using Microsoft.OpenApi.Models;
+using System;
 
 namespace ManagementSystemAPI
 {
@@ -23,7 +26,91 @@ namespace ManagementSystemAPI
         {
             services.AddControllers();
             services.AddMvc();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Zomato API",
+                    Version = "v1",
+                    Description = "Description for the API goes here.",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Ankush Jain",
+                        Email = string.Empty,
+                        Url = new Uri("https://coderjony.com/"),
+                    },
+                });
+            });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Login",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyOrigin()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("MedstoreDetails", 
+                   builder =>
+                   {
+                       builder.WithOrigins("*")
+                                           .AllowAnyHeader()
+                                           .AllowAnyOrigin()
+                                           .AllowAnyMethod();
+                   });
+                options.AddPolicy("GetDistributors",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("Signup",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("OrderCount",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("DistributorDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("OrderItemsDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    }); 
+                options.AddPolicy("OrderDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+                options.AddPolicy("OrderItemsDetails",
+                    builder =>
+                    {
+                        builder.WithOrigins("*")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+            });
             var sqlConnectionString = Configuration["PostgreSqlConnectionString"];
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
             services.AddDbContext<PostgreSqlContext>(options => options.UseNpgsql(sqlConnectionString));
 
@@ -34,6 +121,7 @@ namespace ManagementSystemAPI
             services.AddScoped<IOrdersProvider, OrdersProvider>();
             services.AddScoped<IOrderitemsProvider, OrderitemsProvider>();
             services.AddScoped<IStocksProvider, StocksProvider>();
+            services.AddScoped<IUsersProvider, UsersProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,10 +137,25 @@ namespace ManagementSystemAPI
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Zomato API V1");
+
+                // To serve SwaggerUI at application's root page, set the RoutePrefix property to an empty string.
+                c.RoutePrefix = string.Empty;
+            });
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 
@@ -62,6 +165,8 @@ namespace ManagementSystemAPI
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            // custom jwt auth middleware
+            app.UseMiddleware<JwtMiddleware>();
         }
     }
 }

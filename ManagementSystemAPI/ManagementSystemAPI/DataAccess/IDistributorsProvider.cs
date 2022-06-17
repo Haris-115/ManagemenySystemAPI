@@ -12,6 +12,7 @@ namespace ManagementSystemAPI.DataAccess
         void UpdateDistributorsRecord(Distributors distributors);
         void DeleteDistributorsRecord(int id);
         Distributors GetDistributorsSingleRecord(int id);
+        Distributors GetDistributorByUserId(int id);
         List<Distributors> GetDistributorsRecords();
     }
 }

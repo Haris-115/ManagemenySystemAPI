@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\Exercises\exercise 5\obj\Debug\netcoreapp3.1\exercise 5.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Exercises\exercise 5\obj\Debug\netcoreapp3.1\exercise 5.AssemblyInfo.cs
+C:\Users\hp\source\repos\Exercises\exercise 5\obj\Debug\netcoreapp3.1\exercise 5.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Exercises\exercise 5\bin\Debug\netcoreapp3.1\exercise 5.exe
+C:\Users\hp\source\repos\Exercises\exercise 5\bin\Debug\netcoreapp3.1\exercise 5.deps.json
+C:\Users\hp\source\repos\Exercises\exercise 5\bin\Debug\netcoreapp3.1\exercise 5.runtimeconfig.json
+C:\Users\hp\source\repos\Exercises\exercise 5\bin\Debug\netcoreapp3.1\exercise 5.runtimeconfig.dev.json
+C:\Users\hp\source\repos\Exercises\exercise 5\bin\Debug\netcoreapp3.1\exercise 5.dll
+C:\Users\hp\source\repos\Exercises\exercise 5\bin\Debug\netcoreapp3.1\exercise 5.pdb
+C:\Users\hp\source\repos\Exercises\exercise 5\obj\Debug\netcoreapp3.1\exercise 5.dll
+C:\Users\hp\source\repos\Exercises\exercise 5\obj\Debug\netcoreapp3.1\exercise 5.pdb
+C:\Users\hp\source\repos\Exercises\exercise 5\obj\Debug\netcoreapp3.1\exercise 5.genruntimeconfig.cache

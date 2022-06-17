@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\Exercises\exercise 25\bin\Debug\netcoreapp3.1\exercise 25.exe
+C:\Users\hp\source\repos\Exercises\exercise 25\bin\Debug\netcoreapp3.1\exercise 25.deps.json
+C:\Users\hp\source\repos\Exercises\exercise 25\bin\Debug\netcoreapp3.1\exercise 25.runtimeconfig.json
+C:\Users\hp\source\repos\Exercises\exercise 25\bin\Debug\netcoreapp3.1\exercise 25.runtimeconfig.dev.json
+C:\Users\hp\source\repos\Exercises\exercise 25\bin\Debug\netcoreapp3.1\exercise 25.dll
+C:\Users\hp\source\repos\Exercises\exercise 25\bin\Debug\netcoreapp3.1\exercise 25.pdb
+C:\Users\hp\source\repos\Exercises\exercise 25\obj\Debug\netcoreapp3.1\exercise 25.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Exercises\exercise 25\obj\Debug\netcoreapp3.1\exercise 25.AssemblyInfo.cs
+C:\Users\hp\source\repos\Exercises\exercise 25\obj\Debug\netcoreapp3.1\exercise 25.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Exercises\exercise 25\obj\Debug\netcoreapp3.1\exercise 25.dll
+C:\Users\hp\source\repos\Exercises\exercise 25\obj\Debug\netcoreapp3.1\exercise 25.pdb
+C:\Users\hp\source\repos\Exercises\exercise 25\obj\Debug\netcoreapp3.1\exercise 25.genruntimeconfig.cache
